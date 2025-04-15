@@ -21,5 +21,11 @@ namespace Ejercicios
         {
             Application.Exit();
         }
+
+        private void listaEnlazadaSimpleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmListaSimple fls = new FrmListaSimple();
+            fls.ShowDialog(this); //this es para que cuando apertura el nuevo formulario pase adelante
+        }
     }
 }
