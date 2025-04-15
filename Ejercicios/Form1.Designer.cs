@@ -88,12 +88,14 @@
             this.listaEnlazadaCircularToolStripMenuItem.Name = "listaEnlazadaCircularToolStripMenuItem";
             this.listaEnlazadaCircularToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.listaEnlazadaCircularToolStripMenuItem.Text = "Lista Enlazada Circular";
+            this.listaEnlazadaCircularToolStripMenuItem.Click += new System.EventHandler(this.listaEnlazadaCircularToolStripMenuItem_Click);
             // 
             // listaEnlazadaDobleToolStripMenuItem
             // 
             this.listaEnlazadaDobleToolStripMenuItem.Name = "listaEnlazadaDobleToolStripMenuItem";
             this.listaEnlazadaDobleToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.listaEnlazadaDobleToolStripMenuItem.Text = "Lista Enlazada Doble";
+            this.listaEnlazadaDobleToolStripMenuItem.Click += new System.EventHandler(this.listaEnlazadaDobleToolStripMenuItem_Click);
             // 
             // Form1
             // 

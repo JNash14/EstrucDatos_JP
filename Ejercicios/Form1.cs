@@ -27,5 +27,18 @@ namespace Ejercicios
             FrmListaSimple fls = new FrmListaSimple();
             fls.ShowDialog(this); //this es para que cuando apertura el nuevo formulario pase adelante
         }
+
+        private void listaEnlazadaCircularToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Aqui se esta llamando a otro formulario
+            FrmListaCircular flc = new FrmListaCircular();
+            flc.ShowDialog(this);
+        }
+
+        private void listaEnlazadaDobleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmListaDoble fld = new FrmListaDoble();
+            fld.ShowDialog(this);
+        }
     }
 }

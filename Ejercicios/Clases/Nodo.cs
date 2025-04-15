@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicios.Clases
 {
-    internal class Nodo
+    internal class Nodo //este nodo va servir para la lista enlazada simple y para la lista circular
     {
         private int numero;
         private Nodo siguiente;
