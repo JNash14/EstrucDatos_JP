@@ -11,3 +11,4 @@ C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\SEMANA1\JP\Ej
 C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\SEMANA1\JP\Ejercicios_SLN\Ejercicios\obj\Debug\Ejercicios.FrmListaSimple.resources
 C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\SEMANA1\JP\Ejercicios_SLN\Ejercicios\obj\Debug\Ejercicios.FrmListaCircular.resources
 C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\SEMANA1\JP\Ejercicios_SLN\Ejercicios\obj\Debug\Ejercicios.FrmListaDoble.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\SEMANA1\JP\Ejercicios_SLN\Ejercicios\obj\Debug\Ejercicios.FrmListaDobleAnalisis.resources
