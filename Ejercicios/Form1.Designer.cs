@@ -36,6 +36,7 @@
             this.listaEnlazadaCircularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaEnlazadaDobleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaEnlazadaDobleAnálisisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pilasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +63,7 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -72,7 +73,8 @@
             this.listaEnlazadaSimpleToolStripMenuItem,
             this.listaEnlazadaCircularToolStripMenuItem,
             this.listaEnlazadaDobleToolStripMenuItem,
-            this.listaEnlazadaDobleAnálisisToolStripMenuItem});
+            this.listaEnlazadaDobleAnálisisToolStripMenuItem,
+            this.pilasToolStripMenuItem});
             this.operacionesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(96, 21);
@@ -106,6 +108,13 @@
             this.listaEnlazadaDobleAnálisisToolStripMenuItem.Text = "Lista Enlazada Doble Análisis";
             this.listaEnlazadaDobleAnálisisToolStripMenuItem.Click += new System.EventHandler(this.listaEnlazadaDobleAnálisisToolStripMenuItem_Click);
             // 
+            // pilasToolStripMenuItem
+            // 
+            this.pilasToolStripMenuItem.Name = "pilasToolStripMenuItem";
+            this.pilasToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.pilasToolStripMenuItem.Text = "Pilas";
+            this.pilasToolStripMenuItem.Click += new System.EventHandler(this.pilasToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -134,6 +143,7 @@
         private System.Windows.Forms.ToolStripMenuItem listaEnlazadaCircularToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listaEnlazadaDobleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listaEnlazadaDobleAnálisisToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pilasToolStripMenuItem;
     }
 }
 
