@@ -37,6 +37,7 @@
             this.listaEnlazadaDobleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaEnlazadaDobleAnálisisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pilasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pilaYListaSimpleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,7 +75,8 @@
             this.listaEnlazadaCircularToolStripMenuItem,
             this.listaEnlazadaDobleToolStripMenuItem,
             this.listaEnlazadaDobleAnálisisToolStripMenuItem,
-            this.pilasToolStripMenuItem});
+            this.pilasToolStripMenuItem,
+            this.pilaYListaSimpleToolStripMenuItem});
             this.operacionesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(96, 21);
@@ -115,6 +117,13 @@
             this.pilasToolStripMenuItem.Text = "Pilas";
             this.pilasToolStripMenuItem.Click += new System.EventHandler(this.pilasToolStripMenuItem_Click);
             // 
+            // pilaYListaSimpleToolStripMenuItem
+            // 
+            this.pilaYListaSimpleToolStripMenuItem.Name = "pilaYListaSimpleToolStripMenuItem";
+            this.pilaYListaSimpleToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.pilaYListaSimpleToolStripMenuItem.Text = "Pila y Lista Simple";
+            this.pilaYListaSimpleToolStripMenuItem.Click += new System.EventHandler(this.pilaYListaSimpleToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -144,6 +153,7 @@
         private System.Windows.Forms.ToolStripMenuItem listaEnlazadaDobleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listaEnlazadaDobleAnálisisToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pilasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pilaYListaSimpleToolStripMenuItem;
     }
 }
 

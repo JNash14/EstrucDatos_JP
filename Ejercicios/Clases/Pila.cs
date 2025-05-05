@@ -68,5 +68,19 @@ namespace Ejercicios.Clases
             }
             return;
         }
+
+        public void clear()
+        {
+            cima = null;
+            cantidad = 0;
+        }
+
+
+        //--------------------------------SEMANA 5-------------------------------------------
+        public bool EstaVacio()
+        {
+            return cima == null;
+        }
+
     }
 }
