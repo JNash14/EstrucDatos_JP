@@ -9,11 +9,11 @@ namespace Ejercicios.Clases
     internal class Nodo //este nodo va servir para la lista enlazada simple y para la lista circular
     {
         private int numero;         // para la lista enlazada simple
-        private string nombre;      // este dato se utiliza para la pila
+        private string nombre;      // este dato se utiliza para la pila           //tambien para la cola (SEM7)
 
-        private string infija;          //para pila y lista simple (Sem5)
-        private string prefija;         //para pila y lista simple (Sem5)
-        private string postfija;        //para pila y lista simple (Sem5)
+        private string infija;          //para pila y lista simple (Sem6)
+        private string prefija;         //para pila y lista simple (Sem6)
+        private string postfija;        //para pila y lista simple (Sem6)
 
         private Nodo siguiente;
 

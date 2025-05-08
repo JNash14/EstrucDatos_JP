@@ -45,7 +45,7 @@ namespace Ejercicios.Clases
             return null;
         }
 
-        public string Peek()
+        public string Peek() //
         {
             if (cima != null)
             {              
@@ -76,7 +76,7 @@ namespace Ejercicios.Clases
         }
 
 
-        //--------------------------------SEMANA 5-------------------------------------------
+        //--------------------------------SEMANA 6-------------------------------------------
         public bool EstaVacio()
         {
             return cima == null;

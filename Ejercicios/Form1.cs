@@ -58,5 +58,11 @@ namespace Ejercicios
             FrmPilaListaSimple fpl = new FrmPilaListaSimple();
             fpl.ShowDialog(this);
         }
+
+        private void colasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCola fcl = new FrmCola();
+            fcl.ShowDialog(this);
+        }
     }
 }
