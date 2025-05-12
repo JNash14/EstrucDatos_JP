@@ -60,3 +60,37 @@ C:\Users\JNash\Desktop\Clone\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.cspr
 C:\Users\JNash\Desktop\Clone\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache
 C:\Users\JNash\Desktop\Clone\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.exe
 C:\Users\JNash\Desktop\Clone\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.pdb
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\bin\Debug\Ejercicios.exe.config
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\bin\Debug\Ejercicios.exe
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\bin\Debug\Ejercicios.pdb
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.csproj.AssemblyReference.cache
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.Form1.resources
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmCola.resources
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmListaCircular.resources
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmListaDoble.resources
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmListaDobleAnalisis.resources
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmListaSimple.resources
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmPila.resources
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmPilaListaSimple.resources
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.Properties.Resources.resources
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.csproj.GenerateResource.cache
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.exe
+C:\Users\UPN\Desktop\SEM7 JP Colas\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.pdb
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\bin\Debug\Ejercicios.exe.config
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\bin\Debug\Ejercicios.exe
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\bin\Debug\Ejercicios.pdb
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.csproj.AssemblyReference.cache
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.Form1.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmCola.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmListaCircular.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmListaDoble.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmListaDobleAnalisis.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmListaSimple.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmPila.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmPilaListaSimple.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.Properties.Resources.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.csproj.GenerateResource.cache
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.exe
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\JP\SEM7 (Colas)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.pdb

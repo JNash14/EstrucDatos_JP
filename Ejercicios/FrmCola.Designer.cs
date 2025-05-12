@@ -48,6 +48,7 @@
             this.btnLimpiar.TabIndex = 29;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnElementos
             // 
@@ -58,6 +59,7 @@
             this.btnElementos.TabIndex = 30;
             this.btnElementos.Text = "# Elementos";
             this.btnElementos.UseVisualStyleBackColor = true;
+            this.btnElementos.Click += new System.EventHandler(this.btnElementos_Click);
             // 
             // bntVistazo
             // 
@@ -68,6 +70,7 @@
             this.bntVistazo.TabIndex = 31;
             this.bntVistazo.Text = "Vistazo";
             this.bntVistazo.UseVisualStyleBackColor = true;
+            this.bntVistazo.Click += new System.EventHandler(this.bntVistazo_Click);
             // 
             // listDatos
             // 
@@ -86,6 +89,7 @@
             this.btnDesencolar.TabIndex = 26;
             this.btnDesencolar.Text = "Desencolar";
             this.btnDesencolar.UseVisualStyleBackColor = true;
+            this.btnDesencolar.Click += new System.EventHandler(this.btnDesencolar_Click);
             // 
             // btnEncolar
             // 
