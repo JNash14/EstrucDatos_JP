@@ -64,5 +64,11 @@ namespace Ejercicios
             FrmCola fcl = new FrmCola();
             fcl.ShowDialog(this);
         }
+
+        private void arbolBinarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmArbol fab = new FrmArbol();
+            fab.ShowDialog(this);
+        }
     }
 }

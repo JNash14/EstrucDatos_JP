@@ -46,12 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\ArbolBinario.cs" />
     <Compile Include="Clases\Cola.cs" />
     <Compile Include="Clases\ListaCircular.cs" />
     <Compile Include="Clases\ListaDoble.cs" />
     <Compile Include="Clases\ListaDobleAnalisis.cs" />
     <Compile Include="Clases\ListaSimple.cs" />
     <Compile Include="Clases\Nodo.cs" />
+    <Compile Include="Clases\NodoAB.cs" />
     <Compile Include="Clases\NodoDoble.cs" />
     <Compile Include="Clases\Pila.cs" />
     <Compile Include="Clases\PilaListaSimple.cs" />
@@ -60,6 +62,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmArbol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmArbol.Designer.cs">
+      <DependentUpon>FrmArbol.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmCola.cs">
       <SubType>Form</SubType>
@@ -107,6 +115,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmArbol.resx">
+      <DependentUpon>FrmArbol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCola.resx">
       <DependentUpon>FrmCola.cs</DependentUpon>
