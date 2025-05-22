@@ -69,6 +69,12 @@
     <Compile Include="FrmArbol.Designer.cs">
       <DependentUpon>FrmArbol.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmArbolBinarioBusqueda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmArbolBinarioBusqueda.Designer.cs">
+      <DependentUpon>FrmArbolBinarioBusqueda.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCola.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmArbol.resx">
       <DependentUpon>FrmArbol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmArbolBinarioBusqueda.resx">
+      <DependentUpon>FrmArbolBinarioBusqueda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCola.resx">
       <DependentUpon>FrmCola.cs</DependentUpon>

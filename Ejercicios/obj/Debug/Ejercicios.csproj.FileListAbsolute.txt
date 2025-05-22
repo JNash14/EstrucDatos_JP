@@ -112,3 +112,5 @@ C:\Users\UPN\Desktop\Sem8 (JP - Arboles)\EstrucDatos_JP\Ejercicios\obj\Debug\Eje
 C:\Users\UPN\Desktop\Sem8 (JP - Arboles)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache
 C:\Users\UPN\Desktop\Sem8 (JP - Arboles)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.exe
 C:\Users\UPN\Desktop\Sem8 (JP - Arboles)\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.pdb
+C:\Users\JNash\Desktop\clone\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmArbol.resources
+C:\Users\JNash\Desktop\clone\EstrucDatos_JP\Ejercicios\obj\Debug\Ejercicios.FrmArbolBinarioBusqueda.resources

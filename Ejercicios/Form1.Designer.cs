@@ -40,6 +40,7 @@
             this.pilaYListaSimpleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arbolBinarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.arbolBinarioDeBusquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,7 +81,8 @@
             this.pilasToolStripMenuItem,
             this.pilaYListaSimpleToolStripMenuItem,
             this.colasToolStripMenuItem,
-            this.arbolBinarioToolStripMenuItem});
+            this.arbolBinarioToolStripMenuItem,
+            this.arbolBinarioDeBusquedaToolStripMenuItem});
             this.operacionesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(96, 21);
@@ -142,6 +144,13 @@
             this.arbolBinarioToolStripMenuItem.Text = "Arbol Binario";
             this.arbolBinarioToolStripMenuItem.Click += new System.EventHandler(this.arbolBinarioToolStripMenuItem_Click);
             // 
+            // arbolBinarioDeBusquedaToolStripMenuItem
+            // 
+            this.arbolBinarioDeBusquedaToolStripMenuItem.Name = "arbolBinarioDeBusquedaToolStripMenuItem";
+            this.arbolBinarioDeBusquedaToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.arbolBinarioDeBusquedaToolStripMenuItem.Text = "Arbol Binario de Busqueda";
+            this.arbolBinarioDeBusquedaToolStripMenuItem.Click += new System.EventHandler(this.arbolBinarioDeBusquedaToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -174,6 +183,7 @@
         private System.Windows.Forms.ToolStripMenuItem pilaYListaSimpleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem colasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arbolBinarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem arbolBinarioDeBusquedaToolStripMenuItem;
     }
 }
 

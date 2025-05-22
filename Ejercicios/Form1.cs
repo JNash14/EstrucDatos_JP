@@ -70,5 +70,11 @@ namespace Ejercicios
             FrmArbol fab = new FrmArbol();
             fab.ShowDialog(this);
         }
+
+        private void arbolBinarioDeBusquedaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmArbolBinarioBusqueda fabb = new FrmArbolBinarioBusqueda();
+            fabb.ShowDialog(this);
+        }
     }
 }
