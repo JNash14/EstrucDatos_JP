@@ -56,5 +56,38 @@ namespace Ejercicios
             abb.Postorden(raiz, textPost); //Postorden
             
         }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(textNumero.Text, out int num))
+            {
+                if (abb.buscar(raiz,num) != null)                
+                    MessageBox.Show($"Número {num} existe");
+                else
+                    MessageBox.Show($"Número {num} no existe");
+            }
+            else
+                MessageBox.Show("Solo se permiten números");
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(textNumero.Text, out int num))
+            {
+                if (abb.buscar(raiz, num) != null)
+                {
+                    raiz = abb.eliminar(raiz, num);
+                    treeView1.Nodes.Clear();
+                    abb.mostrar(raiz, treeView1, null);
+                    treeView1.ExpandAll();
+                }                   
+                else
+                    MessageBox.Show($"Número {num} no existe");
+            }
+            else
+                MessageBox.Show("Solo se permiten números");
+
+            
+        }
     }
 }

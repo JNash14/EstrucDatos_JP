@@ -74,5 +74,42 @@ namespace Ejercicios.Clases
             text.Text += actual.Numero.ToString() + "-";  //Raiz 
             
         }
+
+
+        //--------------------------------------------------------- SEMANA 10 ------------------------------------------------------
+        public NodoAB buscar(NodoAB actual, int num)
+        {
+            if (actual == null) return null; // si el arbol esta vacio retornamos null
+
+            if (num == actual.Numero) return actual;
+            else if (num < actual.Numero) return buscar(actual.Izquierda, num);
+            else return buscar(actual.Derecha, num);
+        }
+
+        public NodoAB eliminar(NodoAB actual, int num)
+        {
+            if (actual == null) return null;
+
+            if (num < actual.Numero) actual.Izquierda = eliminar(actual.Izquierda, num);
+            else if (num > actual.Numero) actual.Derecha = eliminar(actual.Derecha, num);
+            else
+            {
+                if (actual.Izquierda == null) return actual.Derecha;
+                if (actual.Derecha == null) return actual.Izquierda;               
+
+                NodoAB sucesor = minimo(actual.Derecha);
+
+                actual.Numero = sucesor.Numero;
+                actual.Derecha = eliminar(actual.Derecha, sucesor.Numero);
+            }
+            return actual;
+        }
+
+        public NodoAB minimo(NodoAB actual)
+        {
+            while (actual.Izquierda != null) // retorna el minimo valor que tenemos
+                actual = actual.Izquierda;
+            return actual;
+        }
     }
 }
