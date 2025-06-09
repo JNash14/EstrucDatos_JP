@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -57,6 +58,8 @@ namespace Ejercicios
             
         }
 
+        //------------------------------------------------------------ SEMANA 10 --------------------------------------------
+
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             if (int.TryParse(textNumero.Text, out int num))
@@ -88,6 +91,36 @@ namespace Ejercicios
                 MessageBox.Show("Solo se permiten números");
 
             
+        }
+
+        //------------------------------------------------------- SEMANA 11 -------------------------------------------------
+
+        private void btnMinimo_Click(object sender, EventArgs e)
+        {
+            if (raiz != null) MessageBox.Show("Mínimo: "+abb.minimo(raiz).Numero);
+            else MessageBox.Show("Arbol vacío!");
+        }
+
+        private void btnMaximo_Click(object sender, EventArgs e)
+        {
+            if (raiz != null) MessageBox.Show("Máximo: " + abb.maximo(raiz).Numero);
+            else MessageBox.Show("Arbol vacío!");
+        }
+
+        private void btnBalanceado_Click(object sender, EventArgs e)
+        {
+            if (raiz != null)
+            {
+                if (abb.balanceado(raiz) != -1) MessageBox.Show("Arbol balanceado");
+                else MessageBox.Show("Arbol no balanceado");
+            }
+            else MessageBox.Show("Arbol vacío!");
+        }
+
+        private void btnSumaHojas_Click(object sender, EventArgs e)
+        {
+            if (raiz != null) MessageBox.Show("Suma: " + abb.suma(raiz));
+            else MessageBox.Show("Arbol vacío!");
         }
     }
 }

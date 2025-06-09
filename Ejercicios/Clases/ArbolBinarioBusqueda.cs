@@ -103,13 +103,48 @@ namespace Ejercicios.Clases
                 actual.Derecha = eliminar(actual.Derecha, sucesor.Numero);
             }
             return actual;
-        }
+        }    
+
+
+
+        //---------------------------------------------------- SEMANA 11 ------------------------------------------------
 
         public NodoAB minimo(NodoAB actual)
         {
-            while (actual.Izquierda != null) // retorna el minimo valor que tenemos
+            while (actual.Izquierda != null) // retorna el minimo valor que tenemos en el arbol
                 actual = actual.Izquierda;
             return actual;
+        }
+
+        public NodoAB maximo(NodoAB actual)
+        {
+            while (actual.Derecha != null) // retorna el máximo valor que tenemos en el arbol
+                actual = actual.Derecha;
+            return actual;
+        }
+
+        public int balanceado(NodoAB actual)
+        {
+            if (actual == null) return 0;
+
+            int alturaIzq = balanceado(actual.Izquierda);
+            if (alturaIzq == -1) return -1;
+
+            int alturaDer = balanceado(actual.Derecha);
+            if (alturaDer == -1) return -1;
+
+            if (Math.Abs(alturaIzq - alturaDer) > 1) return -1; //utilizar e valor absoluto para positivisar
+
+            return Math.Max(alturaIzq, alturaIzq) + 1;
+        }
+
+        public int suma(NodoAB actual)
+        {
+            if (actual == null) return 0; //Si no hay nada retorna 0           
+            if (actual.Derecha == null && actual.Izquierda == null) return actual.Numero; //Aqui nos damos cuenta que el nodo es una hoja
+
+            //La recursividad funciona como un bucle que va encolando los valores
+            return suma(actual.Izquierda) + suma(actual.Derecha); //utilizando recursividad para que el codigo n o sea muy extenso
         }
     }
 }
