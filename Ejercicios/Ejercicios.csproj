@@ -49,6 +49,7 @@
     <Compile Include="Clases\ArbolBinario.cs" />
     <Compile Include="Clases\ArbolBinarioBusqueda.cs" />
     <Compile Include="Clases\Cola.cs" />
+    <Compile Include="Clases\GrafoMatrizAdyacencia.cs" />
     <Compile Include="Clases\ListaCircular.cs" />
     <Compile Include="Clases\ListaDoble.cs" />
     <Compile Include="Clases\ListaDobleAnalisis.cs" />
@@ -81,6 +82,12 @@
     </Compile>
     <Compile Include="FrmCola.Designer.cs">
       <DependentUpon>FrmCola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGrafoMatrizAdyacencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGrafoMatrizAdyacencia.Designer.cs">
+      <DependentUpon>FrmGrafoMatrizAdyacencia.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmListaCircular.cs">
       <SubType>Form</SubType>
@@ -131,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCola.resx">
       <DependentUpon>FrmCola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGrafoMatrizAdyacencia.resx">
+      <DependentUpon>FrmGrafoMatrizAdyacencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmListaCircular.resx">
       <DependentUpon>FrmListaCircular.cs</DependentUpon>

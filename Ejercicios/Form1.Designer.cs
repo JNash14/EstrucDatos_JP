@@ -41,6 +41,7 @@
             this.colasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arbolBinarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arbolBinarioDeBusquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.grafoMatrizAdyacenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,7 +83,8 @@
             this.pilaYListaSimpleToolStripMenuItem,
             this.colasToolStripMenuItem,
             this.arbolBinarioToolStripMenuItem,
-            this.arbolBinarioDeBusquedaToolStripMenuItem});
+            this.arbolBinarioDeBusquedaToolStripMenuItem,
+            this.grafoMatrizAdyacenciaToolStripMenuItem});
             this.operacionesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(96, 21);
@@ -151,6 +153,13 @@
             this.arbolBinarioDeBusquedaToolStripMenuItem.Text = "Arbol Binario de Busqueda";
             this.arbolBinarioDeBusquedaToolStripMenuItem.Click += new System.EventHandler(this.arbolBinarioDeBusquedaToolStripMenuItem_Click);
             // 
+            // grafoMatrizAdyacenciaToolStripMenuItem
+            // 
+            this.grafoMatrizAdyacenciaToolStripMenuItem.Name = "grafoMatrizAdyacenciaToolStripMenuItem";
+            this.grafoMatrizAdyacenciaToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.grafoMatrizAdyacenciaToolStripMenuItem.Text = "Grafo Matriz Adyacencia";
+            this.grafoMatrizAdyacenciaToolStripMenuItem.Click += new System.EventHandler(this.grafoMatrizAdyacenciaToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,6 +193,7 @@
         private System.Windows.Forms.ToolStripMenuItem colasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arbolBinarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arbolBinarioDeBusquedaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem grafoMatrizAdyacenciaToolStripMenuItem;
     }
 }
 
