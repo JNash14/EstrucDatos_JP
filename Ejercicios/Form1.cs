@@ -82,5 +82,11 @@ namespace Ejercicios
             FrmGrafoMatrizAdyacencia fgm = new FrmGrafoMatrizAdyacencia();
             fgm.ShowDialog(this);
         }
+
+        private void grafoDijkstraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmGrafoDijkstra g = new FrmGrafoDijkstra();
+            g.ShowDialog(this);
+        }
     }
 }

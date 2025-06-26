@@ -42,6 +42,7 @@
             this.arbolBinarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arbolBinarioDeBusquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grafoMatrizAdyacenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.grafoDijkstraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,7 +85,8 @@
             this.colasToolStripMenuItem,
             this.arbolBinarioToolStripMenuItem,
             this.arbolBinarioDeBusquedaToolStripMenuItem,
-            this.grafoMatrizAdyacenciaToolStripMenuItem});
+            this.grafoMatrizAdyacenciaToolStripMenuItem,
+            this.grafoDijkstraToolStripMenuItem});
             this.operacionesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(96, 21);
@@ -160,6 +162,13 @@
             this.grafoMatrizAdyacenciaToolStripMenuItem.Text = "Grafo Matriz Adyacencia";
             this.grafoMatrizAdyacenciaToolStripMenuItem.Click += new System.EventHandler(this.grafoMatrizAdyacenciaToolStripMenuItem_Click);
             // 
+            // grafoDijkstraToolStripMenuItem
+            // 
+            this.grafoDijkstraToolStripMenuItem.Name = "grafoDijkstraToolStripMenuItem";
+            this.grafoDijkstraToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.grafoDijkstraToolStripMenuItem.Text = "Grafo Dijkstra";
+            this.grafoDijkstraToolStripMenuItem.Click += new System.EventHandler(this.grafoDijkstraToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -194,6 +203,7 @@
         private System.Windows.Forms.ToolStripMenuItem arbolBinarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arbolBinarioDeBusquedaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem grafoMatrizAdyacenciaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem grafoDijkstraToolStripMenuItem;
     }
 }
 
