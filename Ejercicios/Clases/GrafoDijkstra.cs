@@ -21,7 +21,7 @@ namespace Ejercicios.Clases
         public void insertar(int o, int d, int c)
         {
             matrizCosto[o, d] = c;
-            //matrizCosto[d, o] = c; //matriz no dirigido
+            matrizCosto[d, o] = c; //matriz no dirigido
         }
 
         public void imprimirArista(int o, int d, int c, ListBox list)
@@ -64,7 +64,7 @@ namespace Ejercicios.Clases
                 for (int v = 0; v < numVertices; v++)
                 {
                     if (!visitados[v] && matrizCosto[u, v] != 0 && distancias[u] != int.MaxValue &&
-                        distancias[u] + matrizCosto[u, v] < distancias[v])
+                        distancias[u] + matrizCosto[u, v] < distancias[v]) 
                     {
                         distancias[v] = distancias[u] + matrizCosto[u, v];
                     }

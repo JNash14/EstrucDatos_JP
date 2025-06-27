@@ -50,6 +50,7 @@
     <Compile Include="Clases\ArbolBinarioBusqueda.cs" />
     <Compile Include="Clases\Cola.cs" />
     <Compile Include="Clases\GrafoDijkstra.cs" />
+    <Compile Include="Clases\GrafoFloyd.cs" />
     <Compile Include="Clases\GrafoMatrizAdyacencia.cs" />
     <Compile Include="Clases\ListaCircular.cs" />
     <Compile Include="Clases\ListaDoble.cs" />
@@ -89,6 +90,12 @@
     </Compile>
     <Compile Include="FrmGrafoDijkstra.Designer.cs">
       <DependentUpon>FrmGrafoDijkstra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGrafoFloyd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGrafoFloyd.Designer.cs">
+      <DependentUpon>FrmGrafoFloyd.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmGrafoMatrizAdyacencia.cs">
       <SubType>Form</SubType>
@@ -148,6 +155,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGrafoDijkstra.resx">
       <DependentUpon>FrmGrafoDijkstra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGrafoFloyd.resx">
+      <DependentUpon>FrmGrafoFloyd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGrafoMatrizAdyacencia.resx">
       <DependentUpon>FrmGrafoMatrizAdyacencia.cs</DependentUpon>
