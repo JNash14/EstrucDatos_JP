@@ -94,5 +94,11 @@ namespace Ejercicios
             FrmGrafoFloyd gf = new FrmGrafoFloyd();
             gf.ShowDialog(this);
         }
+
+        private void grafoPrimToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmGrafoPrim g = new FrmGrafoPrim();    
+            g.ShowDialog(this);
+        }
     }
 }

@@ -52,6 +52,7 @@
     <Compile Include="Clases\GrafoDijkstra.cs" />
     <Compile Include="Clases\GrafoFloyd.cs" />
     <Compile Include="Clases\GrafoMatrizAdyacencia.cs" />
+    <Compile Include="Clases\GrafoPrim.cs" />
     <Compile Include="Clases\ListaCircular.cs" />
     <Compile Include="Clases\ListaDoble.cs" />
     <Compile Include="Clases\ListaDobleAnalisis.cs" />
@@ -102,6 +103,12 @@
     </Compile>
     <Compile Include="FrmGrafoMatrizAdyacencia.Designer.cs">
       <DependentUpon>FrmGrafoMatrizAdyacencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGrafoPrim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGrafoPrim.Designer.cs">
+      <DependentUpon>FrmGrafoPrim.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmListaCircular.cs">
       <SubType>Form</SubType>
@@ -161,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGrafoMatrizAdyacencia.resx">
       <DependentUpon>FrmGrafoMatrizAdyacencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGrafoPrim.resx">
+      <DependentUpon>FrmGrafoPrim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmListaCircular.resx">
       <DependentUpon>FrmListaCircular.cs</DependentUpon>
